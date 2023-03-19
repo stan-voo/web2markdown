@@ -1,24 +1,24 @@
 {
-    "manifest_version": 3,
-    "name": "Markdown Copier",
-    "version": "1.0",
-    "description": "Copy selected text and page URL in Markdown format",
-    "permissions": ["clipboardWrite", "scripting"],
-    "action": {
-      "default_icon": {
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
-      }
-    },
-    "icons": {
+  "manifest_version": 3,
+  "name": "Markdown Copier",
+  "version": "1.0",
+  "description": "Copy selected text and page URL in Markdown format",
+  "permissions": ["clipboardWrite", "scripting", "storage"],
+  "options_page": "options.html",
+  "action": {
+    "default_icon": {
       "16": "icon16.png",
       "48": "icon48.png",
       "128": "icon128.png"
-    },
-    "host_permissions": ["<all_urls>"],
-    "background": {
-      "service_worker": "background.js"
     }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
   }
-  
+}
