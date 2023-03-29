@@ -18,13 +18,25 @@
         display: block;
         margin-top: 10px;
       }
+      #twitter-link {
+        display: block;
+        margin-top: 45px;
+      }
+      h2 {
+        font-size: 22px;
+        margin-bottom: 5px;
+      }
     </style>
   </head>
   <body>
+    <h2>Markdown Copier (Customizable)</h2>
     <h1>Customise output</h1>
     <textarea id="output-format"></textarea>
     <button id="save-format">Save output format</button>
-    <span id="message"></span> <!-- Add this line -->
+    <div id="twitter-link">
+      Developed with passion by <a href="https://twitter.com/stan_voo" target="_blank" rel="noopener noreferrer">@stan_voo</a> and Chat-GPT
+    </div>
+    <span id="message"></span>
     <script src="options.js"></script>
   </body>
 </html>

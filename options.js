@@ -1,4 +1,4 @@
-const defaultFormat = "> [selected text]) | [src]([current page URL])";
+const defaultFormat = "> [selected text] | [src]([current page URL])";
 const outputFormatElement = document.getElementById("output-format");
 const saveButton = document.getElementById("save-format");
 const messageElement = document.getElementById("message"); // Add this line
